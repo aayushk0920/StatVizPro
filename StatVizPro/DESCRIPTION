@@ -1,0 +1,20 @@
+Package: StatVizPro
+Title: Comprehensive Statistical Analysis and Visualization Toolkit
+Version: 0.0.0.9000
+Description: Provides an extensive suite of functions to simplify complex data
+    analysis, statistical modeling, and visualization tasks. The package is
+    tailored for data scientists and researchers who seek comprehensive yet
+    user-friendly tools for exploring data, performing advanced statistical tests,
+    and generating high-quality visualizations. Features include automated report
+    generation, customizable charting options, and support for large datasets.
+Depends: R (>= 3.1.2)
+Imports: 
+    dplyr,
+    tidyr,
+    ggplot2,
+    stats
+Authors@R: person("Aayush", "Kumar", email = "aayushk@usf.edu", role = c("aut", "cre"))
+License: MIT
+LazyData: true
+Encoding: UTF-8
+RoxygenNote: 7.3.2
